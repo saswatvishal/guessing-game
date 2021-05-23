@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<video autoplay muted loop id="myVideo">
+    <source src="game bg.mp4" type="video/mp4">
+</video>
+<body>
+    
+<div>
+    <div class="main">
+    <div class="content">
+    <div class="h1">
+        <div class="hr"></div>
+        <h1>Guessing Game</h1><hr>
+    guess and hit the number within 100 that which device guessed <br> and click on submit<hr>
+    <input type="number" name="number" id="number-input" min="1" max="100">
+
+    <button id="guess">Submit</button>
+
+    <button onclick=location.reload()>Reset</button>
+
+    <div id="result"></div><hr>
+    <div id="history"></div>
+    <br>
+    <div id="history"></div>
+
+    <script src="script.js"></script>
+
+
+</div>
+</body>
+</html>
